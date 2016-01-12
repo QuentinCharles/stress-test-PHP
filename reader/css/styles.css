@@ -1,0 +1,139 @@
+/* Colors */
+/*
+	#270072:
+	#0CE8FF:
+	#FF4161: 
+*/
+/* END Colors */
+
+
+/* REM for responsive*/
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+background: #202122;
+}
+
+*{
+	font-family: "ff-tisa-web-pro",serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size  : 18px;	
+	font-size  : 1.8rem;
+	line-height: 30px;
+	line-height: 3rem;
+}
+
+.smallCatch{
+	font-family: "ff-tisa-web-pro",serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size  : 12px;
+	font-size  : 1.2rem;
+	line-height: 20px;
+	line-height: 2rem;
+}
+
+h1,.h1{
+	font-family: "futura-pt",sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size  : 601px;
+	font-size  : 6.1rem;
+	line-height: 63px;
+	line-height: 6.3rem;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	color: #ff0000;
+
+}
+
+h4,.h4{
+	font-family: "futura-pt",sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size  : 15px;
+	font-size  : 1.5rem;
+	line-height: 31px;
+	line-height: 3.1rem;
+	margin: 0 0 35px 0;
+	margin: 0 0 3.5rem 0;
+	padding: 0;
+	text-transform: uppercase;
+	color: white;	
+}
+
+/* End REM for responsive */
+
+
+/* subscription's interface for READER */
+
+.container{
+	width: 100%;
+}
+
+.honeypot{
+	display: none;
+}
+
+.intro{
+	margin: 5rem auto 0 auto ;
+	width: 80%;
+}
+.intro_titre, .intro_sousTitre{
+	text-align: center;
+}
+
+#formReader{
+	width: 100%;
+}
+
+#formReader #labelEmail{
+	display: none;
+}
+
+.containerEmail{
+	float: left;
+	width: 80%;
+}
+
+#formReader #email{
+	margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #3a3b3c;
+    outline-color: #ff0000;
+    border: none;
+    padding: 5px 0px 5px 20px;
+    color: white;
+}
+
+#formReader #submit{
+	float: left;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    position: relative;
+    right: 5px;
+    border: none;
+    background: #ff0000;
+    padding: 5px 0px 5px 0px;
+    color: white;
+    outline-color: #ff0000;
+
+}
+
+.error{
+	color: #ff0000;
+	margin: 0;
+	padding: 0;
+}
+
+.congrate{
+	color: green;
+}
+/* END subscription's interface for READER */
